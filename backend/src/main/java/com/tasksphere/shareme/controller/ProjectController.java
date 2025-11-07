@@ -38,7 +38,7 @@ import jakarta.validation.Valid;
 @RequestMapping("/api/projects")
 @CrossOrigin(origins = {"http://localhost:3000", "http://localhost:3001", "http://localhost:3002"})
 @Tag(name = "Project Management", description = "Comprehensive project management APIs for TaskSphere - Create, read, update, and delete projects with advanced analytics")
-@SecurityRequirement(name = "Bearer Authentication")
+@SecurityRequirement(name = "bearerAuth")
 public class ProjectController {
 
     @Autowired

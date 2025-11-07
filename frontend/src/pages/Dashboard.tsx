@@ -176,7 +176,7 @@ const Dashboard: React.FC = () => {
                 </svg>
                 <span>Dashboard</span>
               </a>
-              <a href="#" className={`flex items-center space-x-3 px-4 py-3 rounded-lg font-medium transition-colors ${isDarkMode ? 'text-gray-300 hover:text-blue-400 hover:bg-gray-700' : 'text-gray-600 hover:text-blue-600 hover:bg-blue-50'}`}>
+              <a href="/tasks" className={`flex items-center space-x-3 px-4 py-3 rounded-lg font-medium transition-colors ${isDarkMode ? 'text-gray-300 hover:text-blue-400 hover:bg-gray-700' : 'text-gray-600 hover:text-blue-600 hover:bg-blue-50'}`}>
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                 </svg>
@@ -427,7 +427,7 @@ const Dashboard: React.FC = () => {
                 <p className="text-blue-100 text-sm">Create, view, and manage your projects</p>
               </button>
 
-              <button className="bg-green-600 hover:bg-green-700 text-white p-6 rounded-xl text-left transition-colors shadow-sm border border-green-600">
+              <a href="/tasks" className="bg-green-600 hover:bg-green-700 text-white p-6 rounded-xl text-left transition-colors shadow-sm border border-green-600 block">
                 <div className="flex items-center space-x-3 mb-2">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -435,7 +435,7 @@ const Dashboard: React.FC = () => {
                   <span className="text-lg font-semibold">View Tasks</span>
                 </div>
                 <p className="text-green-100 text-sm">Track and manage your task progress</p>
-              </button>
+              </a>
 
               <button className="bg-purple-600 hover:bg-purple-700 text-white p-6 rounded-xl text-left transition-colors shadow-sm border border-purple-600">
                 <div className="flex items-center space-x-3 mb-2">

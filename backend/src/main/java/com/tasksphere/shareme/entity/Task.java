@@ -1,7 +1,10 @@
 package com.tasksphere.shareme.entity;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -12,6 +15,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
 
@@ -56,6 +60,9 @@ public class Task {
 
     @Column(name = "due_date")
     private LocalDateTime dueDate;
+    
+    @OneToMany(mappedBy = "task", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<TaskAttachment> attachments = new ArrayList<>();
 
     // Constructors
     public Task() {}
@@ -157,6 +164,14 @@ public class Task {
 
     public void setDueDate(LocalDateTime dueDate) {
         this.dueDate = dueDate;
+    }
+    
+    public List<TaskAttachment> getAttachments() {
+        return attachments;
+    }
+    
+    public void setAttachments(List<TaskAttachment> attachments) {
+        this.attachments = attachments;
     }
 
     @PreUpdate
