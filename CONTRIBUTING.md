@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to TaskSphere! We welcome contributions from the community and are pleased to have you join us.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [Getting Started](#getting-started)
@@ -13,29 +13,29 @@ Thank you for your interest in contributing to TaskSphere! We welcome contributi
 - [Documentation](#documentation)
 - [Reporting Issues](#reporting-issues)
 
-## 📜 Code of Conduct
+## Code of Conduct
 
 This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Fork the repository
 2. Clone your fork: `git clone https://github.com/yourusername/tasksphere.git`
 3. Create a new branch: `git checkout -b feature/your-feature-name`
 4. Follow the [installation instructions](README.md#installation) to set up your development environment
 
-## 🤝 How to Contribute
+## How to Contribute
 
 ### Types of Contributions
 
 We welcome several types of contributions:
 
-- 🐛 **Bug fixes**
-- ✨ **New features**
-- 📚 **Documentation improvements**
-- 🧪 **Test coverage improvements**
-- 🎨 **UI/UX enhancements**
-- ⚡ **Performance optimizations**
+- **Bug fixes**
+- **New features**
+- **Documentation improvements**
+- **Test coverage improvements**
+- **UI/UX enhancements**
+- **Performance optimizations**
 
 ### Before You Start
 
@@ -43,7 +43,7 @@ We welcome several types of contributions:
 2. For major changes, please open an issue first to discuss what you would like to change
 3. Make sure your contribution aligns with the project's goals and architecture
 
-## 🔄 Development Workflow
+## Development Workflow
 
 1. **Create a branch** from `main` with a descriptive name:
    ```bash
@@ -72,7 +72,7 @@ We welcome several types of contributions:
 
 5. **Push to your fork** and create a pull request
 
-## 💻 Coding Standards
+## Coding Standards
 
 ### Backend (Java/Spring Boot)
 
@@ -101,7 +101,7 @@ We welcome several types of contributions:
 - Add proper indexes for performance
 - Follow normalization principles
 
-## 🧪 Testing Guidelines
+## Testing Guidelines
 
 ### Backend Testing
 
@@ -118,7 +118,7 @@ We welcome several types of contributions:
 - Test user interactions and edge cases
 - Mock API calls in tests
 
-## 📚 Documentation
+## Documentation
 
 - Update README.md for new features
 - Add/update Swagger annotations for API changes
@@ -126,7 +126,7 @@ We welcome several types of contributions:
 - Update configuration documentation
 - Add screenshots for UI changes
 
-## 🐛 Reporting Issues
+## Reporting Issues
 
 When reporting issues, please include:
 
@@ -140,12 +140,12 @@ When reporting issues, please include:
 ### Issue Templates
 
 Use our issue templates:
-- 🐛 Bug Report
-- ✨ Feature Request
-- 📚 Documentation Update
-- ❓ Question/Support
+- Bug Report
+- Feature Request
+- Documentation Update
+- Question/Support
 
-## 📝 Pull Request Guidelines
+## Pull Request Guidelines
 
 ### Before Submitting
 
@@ -182,7 +182,7 @@ Add screenshots for UI changes
 - [ ] Tests added/updated
 ```
 
-## 🎯 Development Setup
+## Development Setup
 
 ### Required Tools
 
@@ -206,7 +206,7 @@ Add screenshots for UI changes
 - Lombok plugin
 - Database Navigator
 
-## 🚀 Release Process
+## Release Process
 
 1. Version bump in `pom.xml` and `package.json`
 2. Update CHANGELOG.md
@@ -216,13 +216,13 @@ Add screenshots for UI changes
 6. Create GitHub release
 7. Deploy to production
 
-## 💬 Getting Help
+## Getting Help
 
-- 💬 [GitHub Discussions](https://github.com/yourusername/tasksphere/discussions)
-- 📧 Email: dev@tasksphere.com
-- 💬 Discord: [Join our server](#)
+- [GitHub Discussions](https://github.com/yourusername/tasksphere/discussions)
+- Email: dev@tasksphere.com
+- Discord: [Join our server](#)
 
-## 🏆 Recognition
+## Recognition
 
 Contributors will be recognized in:
 - README.md contributors section

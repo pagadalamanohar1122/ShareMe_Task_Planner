@@ -13,25 +13,25 @@
 
 *Professional task management solution with enterprise-grade features*
 
-[🔗 Live Demo](#) | [📖 API Docs](http://localhost:8081/swagger-ui/index.html) | [🛠️ Installation](#installation) | [📁 Features](#features)
+[Live Demo](#) | [API Docs](http://localhost:8081/swagger-ui/index.html) | [Installation](#installation) | [Features](#features)
 
 </div>
 
-## ✨ **Overview**
+## **Overview**
 
 TaskSphere is a comprehensive, enterprise-grade task management platform built with modern technologies. It provides a robust foundation for project management, team collaboration, and productivity tracking with professional UI/UX design and comprehensive API documentation.
 
-### 🎯 **Key Highlights**
-- **🔐 Enterprise Security**: JWT-based authentication with role-based access control
-- **📱 Responsive Design**: Professional UI with Tailwind CSS and modern React patterns
-- **📚 API-First**: Complete Swagger/OpenAPI documentation for all endpoints
-- **🗄️ Robust Backend**: Spring Boot 3.2 with JPA, Security, and comprehensive error handling
-- **⚡ Real-time Updates**: Modern React 18 with TypeScript for type safety
-- **🔄 Database Migrations**: Flyway for version-controlled database schema management
+### **Key Highlights**
+- **Enterprise Security**: JWT-based authentication with role-based access control
+- **Responsive Design**: Professional UI with Tailwind CSS and modern React patterns
+- **API-First**: Complete Swagger/OpenAPI documentation for all endpoints
+- **Robust Backend**: Spring Boot 3.2 with JPA, Security, and comprehensive error handling
+- **Real-time Updates**: Modern React 18 with TypeScript for type safety
+- **Database Migrations**: Flyway for version-controlled database schema management
 
 ---
 
-## 🏗️ **Architecture**
+## **Architecture**
 
 ### **Technology Stack**
 
@@ -49,77 +49,77 @@ TaskSphere is a comprehensive, enterprise-grade task management platform built w
 
 ---
 
-## 🚀 **Features**
+## **Features**
 
-### 👤 **Authentication & Security**
-- ✅ User registration with email validation
-- ✅ Secure JWT-based login system
-- ✅ Password reset with token validation
-- ✅ Protected routes and API endpoints
-- ✅ Role-based access control
-- ✅ Session management
+### **Authentication & Security**
+- User registration with email validation
+- Secure JWT-based login system
+- Password reset with token validation
+- Protected routes and API endpoints
+- Role-based access control
+- Session management
 
-### 📋 **Task Management**
-- ✅ Complete CRUD operations for tasks
-- ✅ Advanced search and filtering capabilities
-- ✅ Task status management (TODO, IN_PROGRESS, COMPLETED)
-- ✅ Priority levels (LOW, MEDIUM, HIGH, URGENT)
-- ✅ Task assignments and ownership
-- ✅ Due date tracking
+### **Task Management**
+- Complete CRUD operations for tasks
+- Advanced search and filtering capabilities
+- Task status management (TODO, IN_PROGRESS, COMPLETED)
+- Priority levels (LOW, MEDIUM, HIGH, URGENT)
+- Task assignments and ownership
+- Due date tracking
 
-### 📁 **Project Organization**
-- ✅ Project creation and management
-- ✅ Task organization within projects
-- ✅ Project-based access control
-- ✅ Project statistics and analytics
-- ✅ Team collaboration features
+### **Project Organization**
+- Project creation and management
+- Task organization within projects
+- Project-based access control
+- Project statistics and analytics
+- Team collaboration features
 
-### 📝 **Personal Notes System**
-- ✅ Task-specific personal notes
-- ✅ Reminder tags for categorization
-- ✅ Rich text content support
-- ✅ Note search and filtering
-- ✅ Tag-based organization
+### **Personal Notes System**
+- Task-specific personal notes
+- Reminder tags for categorization
+- Rich text content support
+- Note search and filtering
+- Tag-based organization
 
-### 📎 **File Attachments**
-- ✅ Multiple file upload support
-- ✅ Secure file download
-- ✅ File type validation
-- ✅ Storage management
-- ✅ Attachment statistics
+### **File Attachments**
+- Multiple file upload support
+- Secure file download
+- File type validation
+- Storage management
+- Attachment statistics
 
-### 📊 **Analytics & Reporting**
-- ✅ Task completion statistics
-- ✅ Project progress tracking
-- ✅ User activity analytics
-- ✅ Dashboard with key metrics
-- ✅ Export capabilities
+### **Analytics & Reporting**
+- Task completion statistics
+- Project progress tracking
+- User activity analytics
+- Dashboard with key metrics
+- Export capabilities
 
-### 🎨 **Professional UI/UX**
-- ✅ Modern, clean design system
-- ✅ Responsive layout for all devices
-- ✅ Professional color schemes
-- ✅ Intuitive navigation
-- ✅ Loading states and error handling
-- ✅ Accessibility features
+### **Professional UI/UX**
+- Modern, clean design system
+- Responsive layout for all devices
+- Professional color schemes
+- Intuitive navigation
+- Loading states and error handling
+- Accessibility features
 
-### 📚 **API Documentation**
-- ✅ Complete Swagger/OpenAPI 3.0 documentation
-- ✅ Interactive API testing
-- ✅ Comprehensive endpoint descriptions
-- ✅ Request/response examples
-- ✅ Authentication integration
-- ✅ Error response documentation
+### **API Documentation**
+- Complete Swagger/OpenAPI 3.0 documentation
+- Interactive API testing
+- Comprehensive endpoint descriptions
+- Request/response examples
+- Authentication integration
+- Error response documentation
 
 ---
 
-## 🛠️ **Installation**
+## **Installation**
 
 ### **Prerequisites**
-- ☑️ Java 17 or later
-- ☑️ Node.js 18 or later  
-- ☑️ MySQL 8.0 or later
-- ☑️ Maven 3.8 or later
+- Java 17 or later
+- Node.js 18 or later  
+- MySQL 8.0 or later
+- Maven 3.8 or later
 
 ### **Quick Start**
 
@@ -154,15 +154,15 @@ npm run dev
 Frontend runs on: `http://localhost:3002`
 
 5. **Access the Application**
-- 🌐 **Frontend**: http://localhost:3002
-- 📚 **API Documentation**: http://localhost:8081/swagger-ui/index.html
-- 🔗 **API Base URL**: http://localhost:8081/api
+- **Frontend**: http://localhost:3002
+- **API Documentation**: http://localhost:8081/swagger-ui/index.html
+- **API Base URL**: http://localhost:8081/api
 
 ---
 
-## 🔌 **API Endpoints**
+## **API Endpoints**
 
-### 🔐 **Authentication**
+### **Authentication**
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `POST` | `/api/auth/signup` | Register new user |
@@ -171,7 +171,7 @@ Frontend runs on: `http://localhost:3002`
 | `POST` | `/api/auth/forgot` | Password reset request |
 | `POST` | `/api/auth/reset` | Reset password |
 
-### 📋 **Task Management**
+### **Task Management**
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/api/tasks` | Get tasks (with search/filter) |
@@ -181,7 +181,7 @@ Frontend runs on: `http://localhost:3002`
 | `PATCH` | `/api/tasks/{id}/status` | Update task status |
 | `DELETE` | `/api/tasks/{id}` | Delete task |
 
-### 📁 **Project Management**
+### **Project Management**
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/api/projects` | Get user projects |
@@ -190,7 +190,7 @@ Frontend runs on: `http://localhost:3002`
 | `PUT` | `/api/projects/{id}` | Update project |
 | `DELETE` | `/api/projects/{id}` | Delete project |
 
-### 📝 **Notes System**
+### **Notes System**
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/api/task-notes/task/{taskId}` | Get task note |
@@ -198,43 +198,43 @@ Frontend runs on: `http://localhost:3002`
 | `DELETE` | `/api/task-notes/task/{taskId}` | Delete task note |
 | `GET` | `/api/task-notes/tag/{tag}` | Get notes by tag |
 
-> 📚 **Complete API Documentation**: Visit `/swagger-ui/index.html` for interactive documentation
+> **Complete API Documentation**: Visit `/swagger-ui/index.html` for interactive documentation
 
 ---
 
-## 🏗️ **Project Structure**
+## **Project Structure**
 
 ```
 ShareMe_Task_Planner/
-├── 🗂️ backend/                 # Spring Boot Application
-│   ├── 📁 src/main/java/       # Java Source Code
-│   │   ├── 🎮 controller/      # REST Controllers
-│   │   ├── 📊 service/         # Business Logic
-│   │   ├── 🗄️ repository/      # Data Access Layer
-│   │   ├── 🏗️ entity/          # JPA Entities
-│   │   ├── 📋 dto/             # Data Transfer Objects
-│   │   ├── 🔐 security/        # Security Configuration
-│   │   └── ⚙️ config/          # Application Configuration
-│   ├── 📁 src/main/resources/  # Configuration Files
-│   │   ├── 🗃️ db/migration/    # Flyway Migrations
-│   │   └── ⚙️ application.properties
-│   └── 📄 pom.xml              # Maven Dependencies
-├── 🖥️ frontend/                # React Application
-│   ├── 📁 src/                 # TypeScript Source
-│   │   ├── 🧩 components/      # React Components
-│   │   ├── 📄 pages/           # Page Components
-│   │   ├── 🔧 services/        # API Services
-│   │   ├── 🎨 styles/          # CSS/Tailwind Styles
-│   │   └── 🛠️ utils/           # Utility Functions
-│   ├── 📁 public/              # Static Assets
-│   └── 📄 package.json         # npm Dependencies
-├── 🗄️ database/               # Database Scripts
-└── 📚 docs/                   # Documentation
+├── backend/                     # Spring Boot Application
+│   ├── src/main/java/           # Java Source Code
+│   │   ├── controller/          # REST Controllers
+│   │   ├── service/             # Business Logic
+│   │   ├── repository/          # Data Access Layer
+│   │   ├── entity/              # JPA Entities
+│   │   ├── dto/                 # Data Transfer Objects
+│   │   ├── security/            # Security Configuration
+│   │   └── config/              # Application Configuration
+│   ├── src/main/resources/      # Configuration Files
+│   │   ├── db/migration/        # Flyway Migrations
+│   │   └── application.properties
+│   └── pom.xml                  # Maven Dependencies
+├── frontend/                    # React Application
+│   ├── src/                     # TypeScript Source
+│   │   ├── components/          # React Components
+│   │   ├── pages/               # Page Components
+│   │   ├── services/            # API Services
+│   │   ├── styles/              # CSS/Tailwind Styles
+│   │   └── utils/               # Utility Functions
+│   ├── public/                  # Static Assets
+│   └── package.json             # npm Dependencies
+├── database/                    # Database Scripts
+└── docs/                        # Documentation
 ```
 
 ---
 
-## ⚙️ **Configuration**
+## **Configuration**
 
 ### **Backend Configuration** (`application.properties`)
 ```properties
@@ -264,25 +264,25 @@ VITE_APP_TITLE=TaskSphere
 
 ---
 
-## 🤝 **Contributing**
+## **Contributing**
 
 We welcome contributions! Please check out our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 📄 **License**
+## **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👥 **Author**
+## **Author**
 
 - **Pagadala Manohar** - *Full Stack Developer* - [@pagadalamanohar1122](https://github.com/pagadalamanohar1122)
 
 ---
 
-## 🙏 **Acknowledgments**
+## **Acknowledgments**
 
 - Spring Boot team for the excellent framework
 - React team for the amazing frontend library
@@ -294,178 +294,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**⭐ Star this repository if you find it helpful!**
+**Star this repository if you find it helpful!**
 
-Made with ❤️ and ☕ by Pagadala Manohar
+Made with love and coffee by Pagadala Manohar
 
 </div>
-
-## API Endpoints
-
-### Authentication Endpoints
-- `POST /api/auth/signup` - Register new user
-- `POST /api/auth/login` - Login user
-- `GET /api/auth/me` - Get current user (protected)
-- `POST /api/auth/forgot` - Request password reset
-- `POST /api/auth/reset` - Reset password with token
-
-### API Documentation
-- `GET /swagger-ui/index.html` - Swagger UI
-- `GET /v3/api-docs` - OpenAPI JSON specification
-
-## Prerequisites
-
-- Java 17 or later
-- Node.js 18 or later
-- MySQL 8.0 or later
-- Maven 3.8 or later
-
-## Database Setup
-
-1. Create MySQL database and user:
-```sql
-CREATE DATABASE shareme;
-CREATE USER 'shareme'@'localhost' IDENTIFIED BY 'ShareMe@123';
-GRANT ALL PRIVILEGES ON shareme.* TO 'shareme'@'localhost';
-FLUSH PRIVILEGES;
-```
-
-2. Database migrations will run automatically when starting the backend.
-
-## Running the Application
-
-### Backend (Spring Boot)
-
-```bash
-cd backend
-mvn spring-boot:run
-```
-
-The backend will start on http://localhost:8080
-
-### Frontend (React)
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-The frontend will start on http://localhost:3000
-
-## Testing the Application
-
-1. Visit http://localhost:3000 to access the frontend
-2. Visit http://localhost:8080/swagger-ui/index.html to access the API documentation
-3. Create a new account or login with existing credentials
-4. Explore the dashboard and features
-
-## Project Structure
-
-```
-task_managment/
-├── backend/                 # Spring Boot application
-│   ├── src/main/java/      # Java source code
-│   ├── src/main/resources/ # Application properties and static resources
-│   └── pom.xml             # Maven dependencies
-├── frontend/               # React application
-│   ├── src/                # TypeScript/React source code
-│   ├── public/             # Static assets
-│   └── package.json        # npm dependencies
-└── database/
-    └── schema/             # Flyway database migrations
-```
-
-## Configuration
-
-### Backend Configuration
-Key configuration in `application.properties`:
-- Database connection settings
-- JWT secret and token expiration
-- Flyway migration settings
-- CORS configuration
-- Swagger/OpenAPI settings
-
-### Frontend Configuration
-Environment variables in `.env`:
-- `VITE_API_BASE_URL` - Backend API URL
-- `VITE_WS_URL` - WebSocket URL (future use)
-
-## Security Features
-
-- Password hashing with BCrypt
-- JWT tokens with configurable expiration
-- CORS protection
-- Input validation
-- SQL injection protection via JPA
-- CSRF protection disabled for stateless API
-- Rate limiting (recommended for production)
-
-## Development
-
-### Code Style
-- Backend: Java code follows Spring Boot conventions
-- Frontend: TypeScript with strict mode, ESLint configuration
-- Database: Snake_case naming convention
-
-### Adding New Features
-1. Database: Create new Flyway migration files
-2. Backend: Add entities, repositories, services, controllers
-3. Frontend: Add components, pages, API services
-4. Update API documentation with Swagger annotations
-
-## Production Deployment
-
-Before deploying to production:
-
-1. **Security**:
-   - Change JWT secret to a strong, unique value
-   - Use environment variables for sensitive configuration
-   - Enable HTTPS
-   - Configure proper CORS origins
-   - Add rate limiting
-
-2. **Database**:
-   - Use connection pooling
-   - Configure proper backup strategy
-   - Monitor database performance
-
-3. **Application**:
-   - Build frontend for production: `npm run build`
-   - Package backend: `mvn clean package`
-   - Configure proper logging levels
-   - Set up monitoring and health checks
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Database Connection Failed**:
-   - Verify MySQL is running
-   - Check database credentials in application.properties
-   - Ensure database and user exist
-
-2. **JWT Token Issues**:
-   - Check token expiration settings
-   - Verify JWT secret configuration
-   - Clear browser localStorage and retry
-
-3. **CORS Errors**:
-   - Verify frontend URL in CORS configuration
-   - Check that both frontend and backend are running
-
-4. **Build Issues**:
-   - Ensure correct Java version (17+)
-   - Ensure correct Node.js version (18+)
-   - Clear Maven/npm caches and retry
-
-## Contributing
-
-1. Follow the existing code style and patterns
-2. Add tests for new functionality
-3. Update documentation as needed
-4. Ensure all security requirements are met
-
-## License
-
-This project is for educational and demonstration purposes.

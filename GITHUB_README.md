@@ -1,4 +1,4 @@
-# 🚀 TaskSphere - Enterprise Task Management Platform
+# TaskSphere - Enterprise Task Management Platform
 
 <div align="center">
 
@@ -13,25 +13,25 @@
 
 *Professional task management solution with enterprise-grade features*
 
-[🔗 Live Demo](#) | [📖 API Docs](http://localhost:8081/swagger-ui/index.html) | [🛠️ Installation](#installation) | [📁 Features](#features)
+[Live Demo](#) | [API Docs](http://localhost:8081/swagger-ui/index.html) | [Installation](#installation) | [Features](#features)
 
 </div>
 
-## ✨ **Overview**
+## **Overview**
 
 TaskSphere is a comprehensive, enterprise-grade task management platform built with modern technologies. It provides a robust foundation for project management, team collaboration, and productivity tracking with professional UI/UX design and comprehensive API documentation.
 
-### 🎯 **Key Highlights**
-- **🔐 Enterprise Security**: JWT-based authentication with role-based access control
-- **📱 Responsive Design**: Professional UI with Tailwind CSS and modern React patterns
-- **📚 API-First**: Complete Swagger/OpenAPI documentation for all endpoints
-- **🗄️ Robust Backend**: Spring Boot 3.2 with JPA, Security, and comprehensive error handling
-- **⚡ Real-time Updates**: Modern React 18 with TypeScript for type safety
-- **🔄 Database Migrations**: Flyway for version-controlled database schema management
+### **Key Highlights**
+- **Enterprise Security**: JWT-based authentication with role-based access control
+- **Responsive Design**: Professional UI with Tailwind CSS and modern React patterns
+- **API-First**: Complete Swagger/OpenAPI documentation for all endpoints
+- **Robust Backend**: Spring Boot 3.2 with JPA, Security, and comprehensive error handling
+- **Real-time Updates**: Modern React 18 with TypeScript for type safety
+- **Database Migrations**: Flyway for version-controlled database schema management
 
 ---
 
-## 🏗️ **Architecture**
+## **Architecture**
 
 ```mermaid
 graph TB
@@ -57,77 +57,77 @@ graph TB
 
 ---
 
-## 🚀 **Features**
+## **Features**
 
-### 👤 **Authentication & Security**
-- ✅ User registration with email validation
-- ✅ Secure JWT-based login system
-- ✅ Password reset with token validation
-- ✅ Protected routes and API endpoints
-- ✅ Role-based access control
-- ✅ Session management
+### **Authentication & Security**
+- User registration with email validation
+- Secure JWT-based login system
+- Password reset with token validation
+- Protected routes and API endpoints
+- Role-based access control
+- Session management
 
-### 📋 **Task Management**
-- ✅ Complete CRUD operations for tasks
-- ✅ Advanced search and filtering capabilities
-- ✅ Task status management (TODO, IN_PROGRESS, COMPLETED)
-- ✅ Priority levels (LOW, MEDIUM, HIGH, URGENT)
-- ✅ Task assignments and ownership
-- ✅ Due date tracking
+### **Task Management**
+- Complete CRUD operations for tasks
+- Advanced search and filtering capabilities
+- Task status management (TODO, IN_PROGRESS, COMPLETED)
+- Priority levels (LOW, MEDIUM, HIGH, URGENT)
+- Task assignments and ownership
+- Due date tracking
 
-### 📁 **Project Organization**
-- ✅ Project creation and management
-- ✅ Task organization within projects
-- ✅ Project-based access control
-- ✅ Project statistics and analytics
-- ✅ Team collaboration features
+### **Project Organization**
+- Project creation and management
+- Task organization within projects
+- Project-based access control
+- Project statistics and analytics
+- Team collaboration features
 
-### 📝 **Personal Notes System**
-- ✅ Task-specific personal notes
-- ✅ Reminder tags for categorization
-- ✅ Rich text content support
-- ✅ Note search and filtering
-- ✅ Tag-based organization
+### **Personal Notes System**
+- Task-specific personal notes
+- Reminder tags for categorization
+- Rich text content support
+- Note search and filtering
+- Tag-based organization
 
-### 📎 **File Attachments**
-- ✅ Multiple file upload support
-- ✅ Secure file download
-- ✅ File type validation
-- ✅ Storage management
-- ✅ Attachment statistics
+### **File Attachments**
+- Multiple file upload support
+- Secure file download
+- File type validation
+- Storage management
+- Attachment statistics
 
-### 📊 **Analytics & Reporting**
-- ✅ Task completion statistics
-- ✅ Project progress tracking
-- ✅ User activity analytics
-- ✅ Dashboard with key metrics
-- ✅ Export capabilities
+### **Analytics & Reporting**
+- Task completion statistics
+- Project progress tracking
+- User activity analytics
+- Dashboard with key metrics
+- Export capabilities
 
-### 🎨 **Professional UI/UX**
-- ✅ Modern, clean design system
-- ✅ Responsive layout for all devices
-- ✅ Professional color schemes
-- ✅ Intuitive navigation
-- ✅ Loading states and error handling
-- ✅ Accessibility features
+### **Professional UI/UX**
+- Modern, clean design system
+- Responsive layout for all devices
+- Professional color schemes
+- Intuitive navigation
+- Loading states and error handling
+- Accessibility features
 
-### 📚 **API Documentation**
-- ✅ Complete Swagger/OpenAPI 3.0 documentation
-- ✅ Interactive API testing
-- ✅ Comprehensive endpoint descriptions
-- ✅ Request/response examples
-- ✅ Authentication integration
-- ✅ Error response documentation
+### **API Documentation**
+- Complete Swagger/OpenAPI 3.0 documentation
+- Interactive API testing
+- Comprehensive endpoint descriptions
+- Request/response examples
+- Authentication integration
+- Error response documentation
 
 ---
 
-## 🛠️ **Installation**
+## **Installation**
 
 ### **Prerequisites**
-- ☑️ Java 17 or later
-- ☑️ Node.js 18 or later  
-- ☑️ MySQL 8.0 or later
-- ☑️ Maven 3.8 or later
+- Java 17 or later
+- Node.js 18 or later  
+- MySQL 8.0 or later
+- Maven 3.8 or later
 
 ### **Quick Start**
 
@@ -162,31 +162,31 @@ npm run dev
 Frontend runs on: `http://localhost:3002`
 
 5. **Access the Application**
-- 🌐 **Frontend**: http://localhost:3002
-- 📚 **API Documentation**: http://localhost:8081/swagger-ui/index.html
-- 🔗 **API Base URL**: http://localhost:8081/api
+- **Frontend**: http://localhost:3002
+- **API Documentation**: http://localhost:8081/swagger-ui/index.html
+- **API Base URL**: http://localhost:8081/api
 
 ---
 
-## 📱 **Screenshots**
+## **Screenshots**
 
-### 🏠 Dashboard Overview
+### Dashboard Overview
 *Professional dashboard with task statistics and quick actions*
 
-### 📋 Task Management
+### Task Management
 *Comprehensive task list with advanced filtering and search*
 
-### 📝 Notes System
+### Notes System
 *Personal notes with reminder tags and rich content*
 
-### 📊 Analytics
+### Analytics
 *Project statistics and progress tracking*
 
 ---
 
-## 🔌 **API Endpoints**
+## **API Endpoints**
 
-### 🔐 **Authentication**
+### **Authentication**
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `POST` | `/api/auth/signup` | Register new user |
@@ -195,7 +195,7 @@ Frontend runs on: `http://localhost:3002`
 | `POST` | `/api/auth/forgot` | Password reset request |
 | `POST` | `/api/auth/reset` | Reset password |
 
-### 📋 **Task Management**
+### **Task Management**
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/api/tasks` | Get tasks (with search/filter) |
@@ -205,7 +205,7 @@ Frontend runs on: `http://localhost:3002`
 | `PATCH` | `/api/tasks/{id}/status` | Update task status |
 | `DELETE` | `/api/tasks/{id}` | Delete task |
 
-### 📁 **Project Management**
+### **Project Management**
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/api/projects` | Get user projects |
@@ -214,7 +214,7 @@ Frontend runs on: `http://localhost:3002`
 | `PUT` | `/api/projects/{id}` | Update project |
 | `DELETE` | `/api/projects/{id}` | Delete project |
 
-### 📝 **Notes System**
+### **Notes System**
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `GET` | `/api/task-notes/task/{taskId}` | Get task note |
@@ -222,43 +222,43 @@ Frontend runs on: `http://localhost:3002`
 | `DELETE` | `/api/task-notes/task/{taskId}` | Delete task note |
 | `GET` | `/api/task-notes/tag/{tag}` | Get notes by tag |
 
-> 📚 **Complete API Documentation**: Visit `/swagger-ui/index.html` for interactive documentation
+> **Complete API Documentation**: Visit `/swagger-ui/index.html` for interactive documentation
 
 ---
 
-## 🏗️ **Project Structure**
+## **Project Structure**
 
 ```
 tasksphere/
-├── 🗂️ backend/                 # Spring Boot Application
-│   ├── 📁 src/main/java/       # Java Source Code
-│   │   ├── 🎮 controller/      # REST Controllers
-│   │   ├── 📊 service/         # Business Logic
-│   │   ├── 🗄️ repository/      # Data Access Layer
-│   │   ├── 🏗️ entity/          # JPA Entities
-│   │   ├── 📋 dto/             # Data Transfer Objects
-│   │   ├── 🔐 security/        # Security Configuration
-│   │   └── ⚙️ config/          # Application Configuration
-│   ├── 📁 src/main/resources/  # Configuration Files
-│   │   ├── 🗃️ db/migration/    # Flyway Migrations
-│   │   └── ⚙️ application.properties
-│   └── 📄 pom.xml              # Maven Dependencies
-├── 🖥️ frontend/                # React Application
-│   ├── 📁 src/                 # TypeScript Source
-│   │   ├── 🧩 components/      # React Components
-│   │   ├── 📄 pages/           # Page Components
-│   │   ├── 🔧 services/        # API Services
-│   │   ├── 🎨 styles/          # CSS/Tailwind Styles
-│   │   └── 🛠️ utils/           # Utility Functions
-│   ├── 📁 public/              # Static Assets
-│   └── 📄 package.json         # npm Dependencies
-├── 🗄️ database/               # Database Scripts
-└── 📚 docs/                   # Documentation
+├── backend/                 # Spring Boot Application
+│   ├── src/main/java/       # Java Source Code
+│   │   ├── controller/      # REST Controllers
+│   │   ├── service/         # Business Logic
+│   │   ├── repository/      # Data Access Layer
+│   │   ├── entity/          # JPA Entities
+│   │   ├── dto/             # Data Transfer Objects
+│   │   ├── security/        # Security Configuration
+│   │   └── config/          # Application Configuration
+│   ├── src/main/resources/  # Configuration Files
+│   │   ├── db/migration/    # Flyway Migrations
+│   │   └── application.properties
+│   └── pom.xml              # Maven Dependencies
+├── frontend/                # React Application
+│   ├── src/                 # TypeScript Source
+│   │   ├── components/      # React Components
+│   │   ├── pages/           # Page Components
+│   │   ├── services/        # API Services
+│   │   ├── styles/          # CSS/Tailwind Styles
+│   │   └── utils/           # Utility Functions
+│   ├── public/              # Static Assets
+│   └── package.json         # npm Dependencies
+├── database/               # Database Scripts
+└── docs/                   # Documentation
 ```
 
 ---
 
-## ⚙️ **Configuration**
+## **Configuration**
 
 ### **Backend Configuration** (`application.properties`)
 ```properties
@@ -289,7 +289,7 @@ VITE_WS_URL=ws://localhost:8081/ws
 
 ---
 
-## 🚀 **Deployment**
+## **Deployment**
 
 ### **Production Checklist**
 - [ ] Change JWT secret to production value
@@ -309,7 +309,7 @@ docker-compose up -d
 
 ---
 
-## 🧪 **Testing**
+## **Testing**
 
 ### **Backend Testing**
 ```bash
@@ -327,16 +327,16 @@ npm run test:e2e           # Run end-to-end tests
 
 ---
 
-## 🤝 **Contributing**
+## **Contributing**
 
 We welcome contributions! Please follow these guidelines:
 
-1. 🍴 Fork the repository
-2. 🌿 Create a feature branch: `git checkout -b feature/amazing-feature`
-3. 💻 Make your changes with proper tests
-4. 📝 Update documentation as needed
-5. ✅ Ensure all tests pass
-6. 🚀 Submit a pull request
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Make your changes with proper tests
+4. Update documentation as needed
+5. Ensure all tests pass
+6. Submit a pull request
 
 ### **Development Guidelines**
 - Follow existing code style and patterns
@@ -347,19 +347,19 @@ We welcome contributions! Please follow these guidelines:
 
 ---
 
-## 📄 **License**
+## **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👥 **Authors & Contributors**
+## **Authors & Contributors**
 
 - **[Your Name]** - *Initial work* - [@yourusername](https://github.com/yourusername)
 
 ---
 
-## 🙏 **Acknowledgments**
+## **Acknowledgments**
 
 - Spring Boot team for the excellent framework
 - React team for the amazing frontend library
@@ -370,19 +370,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 **Support**
+## **Support**
 
-- 📧 **Email**: support@tasksphere.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/tasksphere/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/tasksphere/discussions)
-- 📖 **Documentation**: [Wiki](https://github.com/yourusername/tasksphere/wiki)
+- **Email**: support@tasksphere.com
+- **Issues**: [GitHub Issues](https://github.com/yourusername/tasksphere/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/yourusername/tasksphere/discussions)
+- **Documentation**: [Wiki](https://github.com/yourusername/tasksphere/wiki)
 
 ---
 
 <div align="center">
 
-**⭐ Star this repository if you find it helpful!**
+**Star this repository if you find it helpful!**
 
-Made with ❤️ and ☕ by [Your Name]
+Made with love and coffee by [Your Name]
 
 </div>
